@@ -33,7 +33,6 @@ export default function Form(){
                 <Text>Valor do Etanol</Text>
                 <TextInput onChangeText={setEthanolValue} value={ethanolValue} placeholder="valor do etanol..." keyboardType="numeric"/>
                 <Text>Valor da gasolina</Text>
-                <Text>Valor da gasolina</Text>
                 <TextInput onChangeText={setGasolineValue} value={gasolineValue} placeholder="valor da gasolina..." keyboardType="numeric"/>
                 <Button onPress={() => validatorCalc()} title={textButton}/>
             </View>
